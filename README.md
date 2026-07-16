@@ -1,6 +1,6 @@
 # Python Pandas Notes
 
-Personal notes on the Pandas library made while learning from Kaggle, Brocode (YouTube), Claude, etc.
+Personal notes on the Pandas library compiled from multiple learning resources, including videos, documentation, and hands-on practice.
 
 ## Topics Covered
 - Series
