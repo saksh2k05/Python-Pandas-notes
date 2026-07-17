@@ -7,7 +7,7 @@ Series -> 1D array
 
 - dtype states the data type of the given series(strings are shown as "objects" under dtype)
 
-- `series.loc["c"]  
+- `series.loc["c"]  `
   "loc" is used to find the data using the index and also manipulating the data
   Examples:
 ```python
@@ -21,7 +21,7 @@ Series -> 1D array
   "`iloc`" is used to find a value using the original index value of the element
   series.iloc[0] -> gives the value of the 0th index value of given data
 
-- `series[series condition]
+- `series[series condition]`
   under [condition], comparative operators are used to filter by values
   ex- `series[series>200]` gives all values in data that are greater than 200
 
