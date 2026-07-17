@@ -16,3 +16,27 @@ is used to describe properties of a single column
   df.Column1.unique() #to find out all the unique values
   ```
 
+### Maps
+
+Used to transform existing data into a new representation or format
+
+`map()` works on a Series, applies a function to each value and returns a new Series
+
+```python
+review_points_mean = reviews.points.mean()
+reviews.points.map(lambda p: p - review_points_mean)
+```
+
+
+`apply()` works on a DataFrame, applies a custom function to each row or column
+
+```python
+def remean_points(row):
+row.points = row.points - review_points_mean
+return row
+
+reviews.apply(remean_points, axis='columns')  # row-wise
+reviews.apply(remean_points, axis='index')    # column-wise
+```
+
+Key point: both `map()` and `apply()` return a new Series or DataFrame respectively, they do not modify the original data
