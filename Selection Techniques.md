@@ -7,7 +7,8 @@
 ```python
   df.loc["Value Of Row"]
 ```
-  In order to display only the selected columns with the desired rows, mention the column names along with the rows selection- 
+  To display only the selected columns with the desired rows, mention the column names along with the rows selection- 
+  
      `df.loc["Row2" : "Row6" , ["Column1", "Column2"]]`
     
   To locate using iloc, 
