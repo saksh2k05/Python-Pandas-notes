@@ -3,12 +3,12 @@ Series -> 1D array
 
 `series= pd.Series(data, index=["a", "b", "c"])`
 
-- index section defines how I would like to represent my data
+- The index section defines how I would like to represent my data
 
 - dtype states the data type of the given series(strings are shown as "objects" under dtype)
 
 - `series.loc["c"]  `
-  "loc" is used to find the data using the index and also manipulating the data
+  "loc" is used to find the data using the index and also manipulate the data
   Examples:
 ```python
   `series.loc["c"]= 200
@@ -22,10 +22,10 @@ Series -> 1D array
   series.iloc[0] -> gives the value of the 0th index value of given data
 
 - `series[series condition]`
-  under [condition], comparative operators are used to filter by values
+  Under [condition], comparative operators are used to filter by values
   ex- `series[series>200]` gives all values in data that are greater than 200
 
-- `series.astype(datatype)
+- `series.astype(datatype)`
 
   astype is used to display the data in a different format from the current one
   Ex- `series.astype(str)`
