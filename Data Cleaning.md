@@ -35,10 +35,9 @@ It removes all the duplicate rows
 ```python
 df= df.drop_duplicates()
 ```
-     use keep='first' and inplace=True for keeping the first element and delete the rest of the elements
+use keep='first' and inplace=True for keeping the first element and delete the rest of the elements
 
-
-     Example
+Example
 ```python
      df.drop_duplicates(  
      subset=['column'],  
