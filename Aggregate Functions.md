@@ -1,4 +1,4 @@
-They analyze and summarize a set of values
+Aggregate Functions analyze and summarize a set of values
 These functions are "`min`", "`max`", "`count`", "`mean`", "`sum`" etc. which can also be used by `groupby()` function to obtain data of a specific type of data
 
 #### For whole Data Frame
